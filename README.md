@@ -1,19 +1,19 @@
 # UTag
 
-[![CI-Release](https://github.com/RiiConnect24/UTag/actions/workflows/ci.yml/badge.svg)](https://github.com/RiiConnect24/UTag/actions/workflows/ci.yml)
+[![CI-Release](https://github.com/t0g3pii/UTag/actions/workflows/ci.yml/badge.svg)](https://github.com/t0g3pii/UTag/actions/workflows/ci.yml)
 
-A Wii U plugin which sends the titles you play to your [RiiTag](https://tag.rc24.xyz/)!
+A Wii U plugin which sends the titles you play to your [RiiTag](https://riitag.t0g3pii.de/)!
 
 **This will only work with [Aroma](https://aroma.foryour.cafe/)!**
 
 ## Usage
 
 1. Install [Aroma](https://aroma.foryour.cafe/)
-2. Download the [latest stable release](https://github.com/RiiConnect24/UTag/releases/latest)
+2. Download the [latest stable release](https://github.com/t0g3pii/UTag/releases/latest)
 3. Place the `utag.wps` inside `SD://wiiu/environments/aroma/plugins/`
 4. Create a text file in `SD://wiiu/utag.txt`
 5. Paste your RiiTag key inside (you can find it on the RiiTag website
-   under ["Account"](https://tag.rc24.xyz/account)). Do NOT use Windows Notepad!
+   under ["Account"](https://riitag.t0g3pii.de/account)). Do NOT use Windows Notepad!
 
 **NOTE:** All titles except applets (browser, etc.) and system titles are counted, but not all
 games have covers.
@@ -32,7 +32,7 @@ If the [LoggingModule](https://github.com/wiiu-env/LoggingModule) is not present
 
 ### Server
 
-You can pass the `SERVER` variable to `make` to change the server domain. This makes it possible to use [your own RiiTag instance](https://github.com/WiiDatabase/RiiTag-Next). It defaults to `tag.rc24.xyz` (http).
+You can pass the `SERVER` variable to `make` to change the server domain. This makes it possible to use [your own RiiTag instance](https://github.com/WiiDatabase/RiiTag-Next). It defaults to `riitag.t0g3pii.de` (http).
 
 `make` Use `tag.rc24.xyz`
 `make SERVER=example.com` Use `example.com` as server
