@@ -9,7 +9,7 @@
 
 
 #ifndef SERVER
-#define SERVER "tag.rc24.xyz"
+#define SERVER "riitag.t0g3pii.de"
 #endif
 
 WUPS_PLUGIN_NAME("UTag");
@@ -75,7 +75,7 @@ ON_APPLICATION_REQUESTS_EXIT() {
         return;
     }
 
-    char tagURL[180];
+    char tagURL[256];
     char TID[17];
 
     uint32_t title_type     = title_id >> 32;
