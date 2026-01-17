@@ -15,7 +15,7 @@
 WUPS_PLUGIN_NAME("UTag");
 WUPS_PLUGIN_DESCRIPTION("Display the last played titles on your RiiTag.");
 WUPS_PLUGIN_VERSION(VERSION_FULL);
-WUPS_PLUGIN_AUTHOR("RiiConnect24, WiiDatabase.de");
+WUPS_PLUGIN_AUTHOR("t0g3pii, WiiLink former RiiConnect24, WiiDatabase.de");
 WUPS_PLUGIN_LICENSE("GPLv3");
 
 WUPS_USE_WUT_DEVOPTAB();
